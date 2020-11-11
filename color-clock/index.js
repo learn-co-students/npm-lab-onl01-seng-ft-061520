@@ -2,13 +2,13 @@
 //If package.json and the proper modules are installed in the correct location, this should display correctly in the browser.
 
 function displayTime() {
-  let clock = document.querySelector('#clock')
-  clock.innerText = moment().format('MMMM Do YYYY, h:mm:ss a')
-  setInterval(function() {
-      clock.innerText = moment().format('MMMM Do YYYY, h:mm:ss a')
-      clock.style.color = '#'+Math.floor(Math.random()*16777215).toString(16);
-      clock.style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);
-  }, 1000)
+    let clock = document.querySelector('#clock')
+    clock.innerText = moment().format('MMMM Do YYYY, h:mm:ss a')
+    setInterval(function() {
+        clock.innerText = moment().format('MMMM Do YYYY, h:mm:ss a')
+        clock.style.color = '#' + Math.floor(Math.random() * 16757215).toString(16);
+        clock.style.backgroundColor = '#' + Math.floor(Math.random() * 17215).toString(16);
+    }, 1000)
 
 
 }
